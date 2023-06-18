@@ -1,0 +1,63 @@
+.orders_section {
+    margin: 40px 10px;
+    margin-top: 150px;
+}
+
+.delivery_details h1{
+    font-size: 25px;
+    margin: 10px;
+}
+
+
+.delivery_details_form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.delivery_details_form input {
+    padding: 8px;
+    margin: 10px;
+    font-size: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.434);
+    border-radius: 10px;
+}
+
+.delivery_details_form textarea {
+    padding: 8px;
+    margin: 10px;
+    font-size: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.434);
+    border-radius: 10px;
+}
+
+.submit_button {
+    font-size: 1.05rem;
+    background-color: #f91944;
+    padding: 25px 30px;
+    border: 0;
+    font-weight: 700;
+    border-radius: 25px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.place_order_ds_button{
+    font-size: 1.05rem;
+    background-color: #a9717c;
+    padding: 17px 20px;
+    border: 0;
+    font-weight: 700;
+    border-radius: 25px;
+    color: whitesmoke;
+}
+.place_order_button{
+    font-size: 1.05rem;
+    background-color: #f91944;
+    padding: 17px 20px;
+    border: 0;
+    font-weight: 700;
+    border-radius: 25px;
+    color: whitesmoke;
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.order_card_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.food_text_info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.food_text_info h2{
+    color: red;
+}
+

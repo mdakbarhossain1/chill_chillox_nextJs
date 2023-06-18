@@ -1,0 +1,68 @@
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.two_columns_grid {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    grid-gap: 1.5rem;
+}
+
+.three_columns_grid {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    grid-gap: 0.5rem;
+}
+
+
+/* // for tablet  */
+@media screen and (max-width: 900px) and (min-width: 600px) {
+
+
+    .two_columns_grid {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+        grid-gap: 1.5rem;
+    }
+
+    .three_columns_grid {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+        grid-gap: 0.5rem;
+    }
+}
+
+/* / for mobile  */
+@media (max-width: 640px) {
+    .two_columns_grid {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+        grid-gap: 1.5rem;
+    }
+
+    .three_columns_grid {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+        grid-gap: 0.5rem;
+    }
+}
